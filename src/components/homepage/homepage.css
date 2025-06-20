@@ -1,0 +1,86 @@
+/* hero section design  */
+.mentors__hero__container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* background-attachment: fixed; */
+}
+.mentors__hero__container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.montors__hero__content {
+  width: 60%;
+  text-align: center;
+  color: white;
+  z-index: 3;
+}
+
+.montors__hero__content h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+.montors__hero__content p {
+  margin-top: 1rem;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.mentors__hero__btns {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.mentors__hero__btns button {
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid var(--pri_col);
+  transition: all ease-in-out 0.3s;
+}
+.mentors__hero__btns button:last-child {
+  background-color: transparent;
+  color: var(--pri_col);
+}
+.mentors__hero__btns button:last-child:hover {
+  background-color: var(--pri_col);
+  color: #fff;
+}
+.mentors__hero__btns button:first-child:hover {
+  background-color: transparent;
+  color: var(--pri_col);
+}
+
+@media screen and (max-width: 991px) {
+  .montors__hero__content h1 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .montors__hero__content {
+    width: 100%;
+  }
+  .montors__hero__content h1 {
+    font-size: 1.4rem;
+  }
+  .mentors__hero__btns button {
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
