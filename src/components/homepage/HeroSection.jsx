@@ -9,7 +9,7 @@ const HeroSection = () => {
       className="mentors__hero__container"
       style={{ backgroundImage: `url(${banner})` }}
     >
-      <div className="montors__hero__content scroll__up">
+      <div className="montors__hero__content scroll__up container">
         <h1>Empowering Digital Growth & Data-Driven Success</h1>
         <p>
           We are a passionate team of developers and analysts dedicated to

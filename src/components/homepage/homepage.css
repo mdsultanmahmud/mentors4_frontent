@@ -24,7 +24,7 @@
 }
 
 .montors__hero__content {
-  width: 60%;
+  /* width: 60%; */
   text-align: center;
   color: white;
   z-index: 3;
@@ -71,6 +71,9 @@
   .montors__hero__content h1 {
     font-size: 1.6rem;
   }
+  .mentors__hero__container{
+    height: 70vh;
+  }
 }
 @media screen and (max-width: 767px) {
   .montors__hero__content {
@@ -83,4 +86,91 @@
     font-weight: 500;
     font-size: 15px;
   }
+}
+
+/* our services section starts here  */
+.mentors__home__services {
+  padding: 6rem 0rem;
+  background-color: #fff;
+}
+.mentors__home__services__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.mentors__home__service__item {
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-bottom: 3rem;
+}
+.mentors__home__service__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+.mentors__home__service__item img {
+  height: 200px;
+  width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
+  margin: 0 auto;
+}
+
+.mentors__home__service__item h2 {
+  font-size: 1.2rem;
+  margin: 1rem 0rem;
+  font-weight: 600;
+  color: var(--pri_col);
+}
+.mentors__home__service__item p {
+  opacity: 0.7;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.mentors__home__service__item button {
+  transition: all ease-in-out 0.3s;
+  border: 1px solid var(--pri_col);
+}
+.mentors__home__service__item button:hover {
+  color: var(--pri_col);
+  background-color: transparent;
+}
+
+@media screen and (max-width: 991px) {
+  .mentors__home__services__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mentors__home__services{
+    padding: 6rem 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mentors__home__services__items {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+  
+}
+
+/* title components design  */
+.mentors__title__container {
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.mentors__title__container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  color: var(--pri_col);
+}
+.mentors__title__container p {
+  opacity: 0.7;
 }

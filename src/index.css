@@ -76,6 +76,36 @@ ol {
   }
 }
 
+.scroll__right {
+  animation: scrollRight 1s ease-in-out;
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.scroll__left {
+  animation: scrollLeft 1s ease-in-out;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(-12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .zoom__in {
   animation: zooIn 1s ease-in-out;
 }
@@ -94,6 +124,15 @@ ol {
 .boxShadow {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem; 
+  display: block;
+}
+
 
 @media screen and (max-width: 767px) {
   p {
