@@ -243,16 +243,16 @@
   margin-top: 2rem;
 }
 .slick-slide > div {
-  padding: 0 0.5rem; 
+  padding: 0 0.5rem;
 }
 
 .mentors__project__card {
-  /* height: 450px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* padding: 1rem 0rem; */
   background-color: #fff;
+  margin-bottom: 15px;
+  padding-bottom: 1rem;
 }
 .mentors__project__card img {
   width: 100%;
@@ -291,6 +291,7 @@
   display: flex;
   gap: 10px;
   margin-top: 2rem;
+  padding: 1rem 0.5rem;
 }
 
 .mentors__project__details__btn button {
@@ -310,6 +311,103 @@
 }
 .slick-dots li.slick-active button:before {
   color: var(--pri_col) !important;
+}
+
+/* client testimonials section design  */
+.mentors__client__testimonials__main__container {
+  padding: 4rem 0rem;
+  background-color: var(--sec_col);
+}
+.slider_container__testimonials {
+  position: relative;
+  padding-bottom: 60px;
+  /* background-color: red; */
+}
+.mentors__testimonials__card {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.mentors__testimonials__card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid var(--pri_col);
+  margin: 1rem auto 0.5rem;
+  object-fit: cover;
+}
+.mentors__testimonials__card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--pri_col);
+  text-align: center;
+}
+.mentors__testimonials__card .position {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: var(--pri_col);
+  opacity: 0.8;
+}
+.mentors__testimonials__card .description {
+  font-size: 0.9rem;
+  /* padding: 2rem 1rem; */
+  opacity: 0.7;
+  text-align: justify;
+  font-style: italic;
+}
+
+.custom-arrow {
+  position: absolute;
+  bottom: -100px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: var(--pri_col);
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  border: 1px solid var(--pri_col);
+}
+
+.custom-arrow:hover {
+  background-color: var(--sec_col);
+  color: var(--pri_col);
+}
+
+.next-arrow {
+  right: 45%;
+}
+
+.prev-arrow {
+  left: 45%;
+}
+
+.slider_container__testimonials {
+  position: relative;
+  padding-bottom: 80px; /* enough space for arrows */
+}
+
+@media screen and (max-width: 767px) {
+  .custom-arrow {
+    bottom: -70px;
+  }
+  .next-arrow {
+    right: 35%;
+  }
+
+  .prev-arrow {
+    left: 35%;
+  }
 }
 
 /* title components design  */
