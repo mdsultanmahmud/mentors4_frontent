@@ -47,7 +47,20 @@
 
 .services__page__card p {
   font-size: 0.9rem;
-  opacity: 0.7;
+  opacity: 0.8;
+  text-align: justify;
+}
+
+.services__page__card:hover {
+  transform: translateY(-5px);
+  background-color: var(--pri_col);
+}
+.services__page__card:hover h3, .services__page__card:hover p{
+    color: #fff;
+}
+.services__page__card:hover span{
+    background-color: #fff;
+    color: var(--pri_col);
 }
 
 @media screen and (max-width: 991px) {
@@ -59,6 +72,5 @@
 @media screen and (max-width: 767px) {
   .services__page__cards {
     grid-template-columns: repeat(1, 1fr);
-    row-gap: 0 !important;
   }
 }
