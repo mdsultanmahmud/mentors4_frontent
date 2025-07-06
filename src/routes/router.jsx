@@ -9,6 +9,7 @@ import Services from "../pages/Services/Services";
 import Login from "../pages/Authentication/Login";
 import Register from "../pages/Authentication/Register";
 import Blog from "../pages/Blog/Blog";
+import Courses from "../pages/Courses/Courses";
 
 const router = createBrowserRouter([
   {
@@ -20,35 +21,39 @@ const router = createBrowserRouter([
         element: <Homepage />,
       },
       {
-        path:"/about", 
-        element: <About/>
-      }, 
+        path: "/about",
+        element: <About />,
+      },
       {
-        path:"/contact", 
-        element:<Contact/>
-      }, 
+        path: "/contact",
+        element: <Contact />,
+      },
       {
-        path:"/projects", 
-        element:<Projects/>
-      }, 
+        path: "/projects",
+        element: <Projects />,
+      },
       {
-        path:"/services", 
-        element:<Services/>
-      }, 
+        path: "/services",
+        element: <Services />,
+      },
       {
-        path:"/login", 
-        element:<Login/>
-      }, 
+        path: "/courses",
+        element: <Courses />,
+      },
       {
-        path:"/register", 
-        element:<Register/>
-      }, 
+        path: "/login",
+        element: <Login />,
+      },
       {
-        path:"/blog", 
-        element:<Blog/>
-      }
+        path: "/register",
+        element: <Register />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
+      },
     ],
   },
 ]);
 
-export default router 
+export default router;

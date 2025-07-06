@@ -17,6 +17,10 @@ const Navbar = () => {
       text: "Services",
     },
     {
+      link: "/courses",
+      text: "Courses",
+    },
+    {
       link: "/projects",
       text: "Projects",
     },

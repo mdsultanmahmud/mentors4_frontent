@@ -2,6 +2,7 @@
 :root {
   --pri_col: #6a56d1;
   --sec_col:#f4f7ff;
+  --bg_black:#062638; 
 }
 *,
 ::after,
