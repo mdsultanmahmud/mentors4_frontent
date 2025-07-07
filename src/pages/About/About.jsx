@@ -58,26 +58,46 @@ const About = () => {
           ))}
         </div>
         <div className="about__page__vision__mission">
-          <div className="about__page__section">
-            <h2>Our Vision</h2>
-            <p>
-              To be a global leader in digital innovation by empowering
-              businesses and individuals through technology, creativity, and
-              meaningful solutions that shape the future.
-            </p>
-          </div>
+  <div className="about__page__section">
+    <h2>Our Vision</h2>
+    <p>
+      To be a global leader in digital innovation by empowering businesses and
+      individuals through technology, creativity, and meaningful solutions that
+      shape the future.
+    </p>
+  </div>
 
-          <div className="about__page__section">
-            <h2>Our Mission</h2>
-            <p>
-              Our mission is to deliver high-quality, user-centric digital
-              products and services that solve real-world problems, foster
-              growth, and create value for our clients, partners, and
-              communities. We are committed to innovation, excellence, and
-              continuous improvement.
-            </p>
-          </div>
-        </div>
+  <div className="about__page__section">
+    <h2>Our Mission</h2>
+    <p>
+      Our mission is to deliver high-quality, user-centric digital products and
+      services that solve real-world problems, foster growth, and create value
+      for our clients, partners, and communities. We are committed to
+      innovation, excellence, and continuous improvement.
+    </p>
+  </div>
+
+  <div className="about__page__section">
+    <h2>Who We Are</h2>
+    <p>
+      We are a passionate team of developers, designers, analysts, and
+      strategists dedicated to turning ideas into impactful digital experiences.
+      With a strong foundation in technology and a focus on innovation, we work
+      collaboratively to help businesses thrive in the digital age.
+    </p>
+  </div>
+
+  <div className="about__page__section">
+    <h2>What We Do</h2>
+    <p>
+      We provide a wide range of services including web development, mobile app
+      development, UI/UX design, data analysis, and digital strategy. Our goal
+      is to build functional, scalable, and engaging solutions that align with
+      your vision and drive measurable results.
+    </p>
+  </div>
+</div>
+
       </div>
     </div>
   );

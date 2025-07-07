@@ -43,10 +43,10 @@
 }
 
 .about__page__vision__mission {
-  margin-top: 4rem;
+  margin-top: 8rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .about__page__section h2 {
