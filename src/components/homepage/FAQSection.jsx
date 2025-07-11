@@ -34,7 +34,7 @@ const FAQSection = () => {
   ];
   return (
     <div className="mentors__faq__main__container">
-      <div className="faq__content__container">
+      <div className="faq__content__container container">
         <TitleComponent
           title={"Frequently Asked Questions"}
           description={
