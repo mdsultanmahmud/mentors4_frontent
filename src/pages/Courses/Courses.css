@@ -1,0 +1,137 @@
+.mentors__courses__main__container {
+  margin: 6rem 0 !important;
+}
+
+.courses__heading__container {
+  margin-bottom: 2rem;
+}
+.courses__heading__container h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--pri_col);
+  text-align: center;
+}
+.courses__heading__container p {
+  text-align: center;
+  color: var(--bg_black);
+}
+
+.course__filtering__container {
+  margin: 2rem 0rem;
+}
+.course__filtering__container .filter__title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--pri_col);
+  margin-bottom: 1rem;
+}
+.filter__categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.filter__categories h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.filter__categories ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+.filter__categories ul li {
+  list-style: none;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  border: 1px solid var(--pri_col);
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--pri_col);
+  transition: all 0.3s ease;
+}
+
+.filter__categories ul li.active {
+  background-color: var(--pri_col);
+  color: #fff;
+}
+
+.course__card__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.course__card__item {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.course__card__item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.course__description {
+  padding: 1rem;
+}
+.course__description h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: var(--pri_col);
+}
+.course__description p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  text-align: justify;
+  margin-bottom: 0.3rem;
+}
+.course__description strong {
+  font-weight: 600;
+  color: var(--pri_col);
+}
+.course__description .course__summary {
+  margin: 1rem 0rem;
+}
+.course__description .enroll__button {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  border: 1px solid var(--pri_col);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.course__description .enroll__button:hover {
+  background-color: transparent;
+  color: var(--pri_col);
+}
+.no__courses__found {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no__courses__found h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--pri_col);
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .course__card__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 767px) {
+  .course__card__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
