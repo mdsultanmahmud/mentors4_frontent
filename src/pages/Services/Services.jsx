@@ -13,13 +13,13 @@ const Services = () => {
   const services = [
   {
     icon: <FaCode />,
-    title: "Web Development",
+    title: "Learn Basic Statistics for Research",
     description:
       "We specialize in building responsive, high-performance websites using the latest technologies and frameworks. From simple landing pages to complex web applications, our team ensures every project is optimized for speed, scalability, and user experience.",
   },
   {
     icon: <FaPaintBrush />,
-    title: "UI/UX Design",
+    title: "Learn Python for Research",
     description:
       "Our UI/UX design service focuses on crafting visually stunning and user-friendly interfaces. We emphasize intuitive navigation, consistent branding, and engaging user experiences that not only look great but also help retain users and improve overall satisfaction.",
   },

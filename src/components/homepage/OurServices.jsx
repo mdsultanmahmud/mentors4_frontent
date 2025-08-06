@@ -1,16 +1,16 @@
 import React from "react";
 import "./homepage.css";
 import TitleComponent from "./TitleComponent";
-import web from '../../assets/images/webService.jpg'
-import data from '../../assets/images/data_analysis.jpg'
-import statistics from '../../assets/images/statistics.png'
+import web from "../../assets/images/webService.jpg";
+import data from "../../assets/images/data_analysis.jpg";
+import statistics from "../../assets/images/statistics.png";
 const OurServices = () => {
   const services = [
     {
-      img: web,
-      title: "Modern Web Development",
+      img: statistics,
+      title: "Learn Statistics & Data Science",
       description:
-        "We design and build responsive, high-performance websites tailored to your brand and goals. From business sites to dynamic web apps — we've got you covered.",
+        "Boost your career with hands-on training in statistics, data science, and analytics — taught by experienced professionals in a practical and friendly way.",
     },
     {
       img: data,
@@ -18,11 +18,12 @@ const OurServices = () => {
       description:
         "Unlock the power of your data. We analyze, visualize, and interpret data to help you make smart, informed business decisions. A great oppurtunity to get everything in one company.",
     },
+
     {
-      img: statistics,
-      title: "Learn Statistics & Data Science",
+      img: web,
+      title: "Modern Web Development",
       description:
-        "Boost your career with hands-on training in statistics, data science, and analytics — taught by experienced professionals in a practical and friendly way.",
+        "We design and build responsive, high-performance websites tailored to your brand and goals. From business sites to dynamic web apps — we've got you covered.",
     },
   ];
 

@@ -18,7 +18,7 @@ const HeroSection = () => {
         </p>
         <div className="mentors__hero__btns">
           <button onClick={() => navigate("/services")}>Our Services</button>
-          <button onClick={() => navigate("/projects")}>Our Projects</button>
+          <button onClick={() => navigate("/")}>Get Started</button>
         </div>
       </div>
     </div>

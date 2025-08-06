@@ -20,10 +20,10 @@ const Navbar = () => {
       link: "/courses",
       text: "Courses",
     },
-    {
-      link: "/projects",
-      text: "Projects",
-    },
+    // {
+    //   link: "/projects",
+    //   text: "Projects",
+    // },
     {
       link: "/blog",
       text: "Blog",
@@ -61,7 +61,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="mentors__navbar__right">
-          <button>Login</button>
+          <button>Get Started</button>
           <div className="mentors__small__navbar__btn">
             {!open ? (
               <FaBarsStaggered size={20} onClick={() => setOpen(true)} />
